@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.xentium.exe.debug.636012018">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.xentium.exe.debug.636012018" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="cdt.core.errorparser.xentium.c.compiler" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="cdt.core.errorparser.xentium.assembler" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.xentium.exe.debug.636012018" name="Debug" parent="cdt.managedbuild.config.xentium.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.xentium.exe.debug.636012018." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.xentium.exe.debug.410095136" name="Xentium" superClass="cdt.managedbuild.toolchain.xentium.exe.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.xentium.platform.50944575" name="Xentium Platform" osList="all" superClass="cdt.managedbuild.target.xentium.platform"/>
+							<builder buildPath="${workspace_loc:/test}/Debug" id="cdt.managedbuild.target.xentium.builder.2045043945" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.target.xentium.builder"/>
+							<tool id="cdt.managedbuild.tool.xentium.c.compiler.1979056446" name="Xentium C Compiler" superClass="cdt.managedbuild.tool.xentium.c.compiler">
+								<option defaultValue="xentium.c.optimization.level.none" id="xentium.c.compiler.option.optimization.level.639472397" name="Optimization Level" superClass="xentium.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option defaultValue="xentium.c.debugging.level.max" id="xentium.c.compiler.option.debugging.level.219218274" name="Debug Level" superClass="xentium.c.compiler.option.debugging.level" valueType="enumerated"/>
+								<option id="xentium.c.compiler.option.preprocessor.def.symbols.1434491206" name="Defined symbols (-D)" superClass="xentium.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols"/>
+								<inputType id="cdt.managedbuild.tool.xentium.c.compiler.input.852088630" superClass="cdt.managedbuild.tool.xentium.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.xentium.assembler.1532480001" name="Xentium Assembler" superClass="cdt.managedbuild.tool.xentium.assembler"/>
+							<tool id="cdt.managedbuild.tool.xentium.c.linker.1819332054" name="Xentium C Linker" superClass="cdt.managedbuild.tool.xentium.c.linker">
+								<inputType id="cdt.managedbuild.tool.xentium.c.linker.input.912923691" superClass="cdt.managedbuild.tool.xentium.c.linker.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.xentium.archiver.164046083" name="Xentium Archiver" superClass="cdt.managedbuild.tool.xentium.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.xentium.exe.release.495212349">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.xentium.exe.release.495212349" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="cdt.core.errorparser.xentium.c.compiler" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="cdt.core.errorparser.xentium.assembler" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.xentium.exe.release.495212349" name="Release" parent="cdt.managedbuild.config.xentium.exe.release">
+					<folderInfo id="cdt.managedbuild.config.xentium.exe.release.495212349." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.xentium.exe.release.1508409838" name="Xentium" superClass="cdt.managedbuild.toolchain.xentium.exe.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.xentium.platform.1922459999" name="Xentium Platform" osList="all" superClass="cdt.managedbuild.target.xentium.platform"/>
+							<builder buildPath="${workspace_loc:/test}/Release" id="cdt.managedbuild.target.xentium.builder.200850109" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.target.xentium.builder"/>
+							<tool id="cdt.managedbuild.tool.xentium.c.compiler.1058396962" name="Xentium C Compiler" superClass="cdt.managedbuild.tool.xentium.c.compiler">
+								<option defaultValue="xentium.c.optimization.level.most" id="xentium.c.compiler.option.optimization.level.856252395" name="Optimization Level" superClass="xentium.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option defaultValue="xentium.c.debugging.level.none" id="xentium.c.compiler.option.debugging.level.618067698" name="Debug Level" superClass="xentium.c.compiler.option.debugging.level" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.xentium.c.compiler.input.522485675" superClass="cdt.managedbuild.tool.xentium.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.xentium.assembler.854620311" name="Xentium Assembler" superClass="cdt.managedbuild.tool.xentium.assembler"/>
+							<tool id="cdt.managedbuild.tool.xentium.c.linker.477483917" name="Xentium C Linker" superClass="cdt.managedbuild.tool.xentium.c.linker">
+								<inputType id="cdt.managedbuild.tool.xentium.c.linker.input.1037044089" superClass="cdt.managedbuild.tool.xentium.c.linker.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.xentium.archiver.1443574015" name="Xentium Archiver" superClass="cdt.managedbuild.tool.xentium.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="test.cdt.managedbuild.target.xentium.exe.1371361577" name="Executable" projectType="cdt.managedbuild.target.xentium.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/test"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/test"/>
+		</configuration>
+	</storageModule>
+</cproject>
